@@ -1,0 +1,57 @@
+.Card {
+  background: #fff;
+  background-image: url("../assets/leaf2.png"), url("../assets/leaf2.png");
+  width: 35rem;
+  height: 50rem;
+  padding: 0 2rem;
+  box-sizing: border-box;
+  border-radius: 2.5rem;
+  background-repeat: no-repeat, no-repeat;
+  box-shadow: 1.5rem 1rem 2.5rem 0 #3fa1a9;
+  background-position: 120% -5%, 200% -40%;
+  margin: 0 auto;
+  background-size: 40%, 80%;
+}
+.UserImage {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.About {
+  display: flex;
+  justify-content: space-between;
+  width: 30rem;
+  margin-bottom: 0.5rem;
+  align-items: center;
+}
+.About h3,
+.About p {
+  margin: 0px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+.About h3 {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+.Name {
+  text-transform: capitalize;
+  font-size: 3rem;
+}
+.Buttons {
+  margin-top: 2rem;
+}
+.Buttons button {
+  font-size: 1.6rem;
+  cursor: pointer;
+  border: 0;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  padding: 0.5rem 1rem;
+  margin-right: 2rem;
+}
+
+.Special {
+  border: 0px;
+}

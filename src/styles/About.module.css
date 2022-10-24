@@ -1,0 +1,13 @@
+.About {
+  background-color: white;
+  width: 80%;
+  border-radius: 20px;
+  padding: 0 2rem;
+  min-height: 20rem;
+}
+.About__Head {
+  font-weight: 400;
+}
+.AboutContent {
+  text-align: left;
+}

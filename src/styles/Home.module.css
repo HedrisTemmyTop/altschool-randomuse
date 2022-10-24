@@ -1,0 +1,49 @@
+.Main {
+  color: white;
+  font-size: 4rem;
+  text-align: left;
+  max-width: 45rem;
+  font-weight: 200;
+  font-family: sans-serif;
+}
+.HomeContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 4rem;
+  /* top: 50%;
+  transform: translateY(-50%);
+  position: absolute; */
+}
+.Buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.BtnLink {
+  background-color: white;
+  text-decoration: none;
+  margin-right: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  color: #1e74fd;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.BtnLink:hover {
+  background-color: transparent;
+  color: white;
+}
+@media only screen and (max-width: 650px) {
+  .HomeContent {
+    flex-direction: column;
+  }
+  .Buttons {
+    margin-bottom: 4rem;
+  }
+  .BtnLink {
+    margin-right: 2rem;
+  }
+}

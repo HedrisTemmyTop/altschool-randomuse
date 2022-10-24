@@ -1,0 +1,16 @@
+.Contact {
+  background-color: white;
+  width: 80%;
+  border-radius: 20px;
+  padding: 0 2rem;
+  min-height: 20rem;
+}
+.Contact__Head {
+  font-weight: 400;
+}
+.ContactContent {
+  text-align: left;
+}
+.Links a {
+  color: purple;
+}
