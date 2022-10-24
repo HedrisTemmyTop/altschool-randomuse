@@ -4,7 +4,6 @@ import image from "../assets/background.jpg";
 
 const User = ({ users, loading }) => {
   const [user] = users;
-  console.log(user);
   let content = <div>Loading....</div>;
   if (!loading) {
     content = (
