@@ -23,6 +23,10 @@ const Layout = () => {
             </ErrorBoundary>
           }
         />
+        <Route
+          path="*"
+          element={<p style={{ color: "white" }}>Page not found</p>}
+        />
       </Routes>
     </div>
   );
